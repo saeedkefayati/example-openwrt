@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# Load common functions
 . "$(dirname "$0")/utils/main.sh"
 
 display_network_info() {
@@ -41,8 +40,6 @@ display_wireless_usage() {
 }
 
 script_network() {
-    reset
-    clear
     draw_banner
     display_network_info
     display_wireless_usage

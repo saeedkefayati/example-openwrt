@@ -88,8 +88,6 @@ display_storage_usage() {
 }
 
 script_status() {
-    reset
-    clear
     draw_banner
     display_system_info
     display_memory_usage

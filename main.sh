@@ -34,10 +34,12 @@ while true; do
 
     case $choice in
         1)
+            clear_terminal
             script_status
             read -p "Press Enter to return to the menu..."
             ;;
         2)
+            clear_terminal
             script_network
             read -p "Press Enter to return to the menu..."
             ;;

@@ -33,3 +33,16 @@ draw_progress_bar() {
     printf "%-12s [${color}%s${reset}] %3d%% (%s / %s)\n" \
         "$label" "$bar" "$percentage" "$used_hr" "$total_hr"
 }
+
+# Terminal
+clear_terminal() {
+    if command -v printf >/dev/null 2>&1; then
+        printf "\033c"
+    elif command -v clear >/dev/null 2>&1; then
+        clear
+    elif command -v reset >/dev/null 2>&1; then
+        reset
+    else
+        echo "No method to clear terminal available"
+    fi
+}
