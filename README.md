@@ -1,11 +1,5 @@
 # A simple OpenWrt router management script.
 
->   _______                     ________        __  
->  |       |.-----.-----.-----.|  |  |  |.----.|  |_  
->  |   -   ||  _  |  -__|     ||  |  |  ||   _||   _|  
->  |_______||   __|_____|__|__||________||__|  |____|  
->            |__| W I R E L E S S   F R E E D O M  
-
 
 # Install :
 ```
@@ -27,4 +21,12 @@ git pull
 # Uninstall :
 ```
 rm -f /tmp/uninstall.sh && wget -O /tmp/uninstall.sh https://raw.githubusercontent.com/saeedkefayati/example-openwrt/main/uninstall.sh && chmod +x /tmp/uninstall.sh && sh /tmp/uninstall.sh
+```
+
+```text
+  _______                     ________        __
+ |       |.-----.-----.-----.|  |  |  |.----.|  |_
+ |   -   ||  _  |  -__|     ||  |  |  ||   _||   _|
+ |_______||   __|_____|__|__||________||__|  |____|
+          |__| W I R E L E S S   F R E E D O M
 ```
