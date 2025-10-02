@@ -1,5 +1,21 @@
 # A simple OpenWrt router management script.
 
+```
+      "==============================================="
+      "   Main Management Script For Openwrt Router   "
+      "-----------------------------------------------"
+      "   use this script with router-status command  "
+      "==============================================="
+      "----------------------------------"
+      "1. Display Full Router Status     "
+      "2. Display Full Router Network    "
+      "3. Update Packages                "
+      "4. Update router-status Package   "
+      "5. Uninstall router-status Package"
+      "6. Exit                           "
+      "----------------------------------"
+```
+
 # Install :
 ```
 sh <(wget -qO- https://raw.githubusercontent.com/saeedkefayati/example-openwrt/main/install.sh)
