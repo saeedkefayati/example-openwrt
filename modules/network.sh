@@ -41,6 +41,7 @@ display_wireless_usage() {
 }
 
 script_network() {
+    clear
     draw_banner
     display_network_info
     display_wireless_usage
