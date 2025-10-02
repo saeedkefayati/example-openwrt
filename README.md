@@ -1,11 +1,10 @@
 # A simple OpenWrt router management script.
 
 
-===============================================
+-----------------------------------------------
    Main Management Script For Openwrt Router   
 -----------------------------------------------
    use this script with router-status command  
-===============================================
 -----------------------------------------------
 1. Display Full Router Status     
 2. Display Full Router Network    
