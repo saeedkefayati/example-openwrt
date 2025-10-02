@@ -1,5 +1,11 @@
 # A simple OpenWrt router management script.
 
+# Install :
+```
+sh <(wget -qO- https://raw.githubusercontent.com/saeedkefayati/example-openwrt/main/install.sh)
+```
+
+
 
 # Install :
 ```
