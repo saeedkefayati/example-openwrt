@@ -19,9 +19,11 @@ fi
 show_menu() {
     clear
     draw_banner
-    echo "========================="
-    echo "  Main Management Script "
-    echo "========================="
+    echo "==============================================="
+    echo "   Main Management Script For Openwrt Router   "
+    echo "==============================================="
+    echo "   use this script with router-status command  "
+    echo "==============================================="
     echo "1. Display Full Router Status"
     echo "2. Display Full Router Network"
     echo "3. Update Packages"
