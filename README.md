@@ -11,3 +11,7 @@ you can use it with this command
 router-status
 ```
 
+# uninstall :
+```
+rm -f /tmp/uninstall.sh && wget -O /tmp/uninstall.sh https://raw.githubusercontent.com/saeedkefayati/example-openwrt/main/uninstall.sh && chmod +x /tmp/uninstall.sh && sh /tmp/uninstall.sh
+```
