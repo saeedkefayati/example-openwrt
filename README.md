@@ -1,6 +1,6 @@
 # A simple OpenWrt router management script.
 
-```
+
       "==============================================="
       "   Main Management Script For Openwrt Router   "
       "-----------------------------------------------"
@@ -14,7 +14,7 @@
       "5. Uninstall router-status Package"
       "6. Exit                           "
       "----------------------------------"
-```
+
 
 # Install :
 ```
