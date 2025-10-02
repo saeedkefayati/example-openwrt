@@ -1,7 +1,7 @@
 # A simple OpenWrt router management script.
 
 
-
+-----------------------------------------------
    Main Management Script For Openwrt Router   
 
    use this script with router-status command  
@@ -12,7 +12,7 @@
 4. Update router-status Package   
 5. Uninstall router-status Package
 6. Exit                           
-
+-----------------------------------------------
 
 
 # Install :
