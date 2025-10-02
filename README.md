@@ -2,12 +2,6 @@
 
 
 -----------------------------------------------
-  _______                     ________        __
- |       |.-----.-----.-----.|  |  |  |.----.|  |_
- |   -   ||  _  |  -__|     ||  |  |  ||   _||   _|
- |_______||   __|_____|__|__||________||__|  |____|
-          |__| W I R E L E S S   F R E E D O M
-
    Main Management Script For Openwrt Router   
 
    use this script with router-status command  
