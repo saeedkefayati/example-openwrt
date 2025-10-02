@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Load common functions
-. "$(dirname "$0")/../utils/main.sh"
+. "$(dirname "$0")/utils/main.sh"
 
 display_network_info() {
     echo "Network"
