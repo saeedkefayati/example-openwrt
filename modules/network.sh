@@ -6,7 +6,6 @@ display_network_info() {
     echo "Network"
     echo "-----------------------------------------------------"
 
-    # لیست اینترفیس‌ها
     ifconfig | awk '/^(br-lan|eth|wlan)/ {print $1}' | while read iface; do
         echo "Interface: $iface"
 
