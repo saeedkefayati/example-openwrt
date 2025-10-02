@@ -1,6 +1,6 @@
 #!/bin/sh
 
-. "$(dirname "$0")/../utils/main.sh"
+. "$(dirname "$0")/utils/main.sh"
 
 display_system_info() {
     echo "System"
