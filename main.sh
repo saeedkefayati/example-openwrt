@@ -38,11 +38,13 @@ while true; do
             clear_terminal
             script_status
             read -p "Press Enter to return to the menu..."
+            clear_terminal
             ;;
         2)
             clear_terminal
             script_network
             read -p "Press Enter to return to the menu..."
+            clear_terminal
             ;;
         3)
             echo "Updating packages..."
