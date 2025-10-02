@@ -18,6 +18,7 @@ fi
 
 show_menu() {
     clear
+    draw_banner
     echo "========================="
     echo "  Main Management Script "
     echo "========================="

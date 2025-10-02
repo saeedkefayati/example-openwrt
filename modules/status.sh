@@ -88,7 +88,6 @@ display_storage_usage() {
 }
 
 script_status() {
-    draw_banner
     display_system_info
     display_memory_usage
     display_storage_usage
